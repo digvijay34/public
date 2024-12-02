@@ -31,7 +31,7 @@ public class Solution{
 		*/
 	
 		//List<String> stringlist= Arrays.asList("hat","cat","bat","rat","sat","fat");
-		
+		//developer branch
 		//stringlist.forEach(System.out::println);
 		List<EmployeeBean> employees= sequential(100);
 		Map<Department,List<String>> map =employees.stream().sorted((a,b)->a.name().compareTo(b.name())).collect(Collectors.groupingBy(EmployeeBean::department,Collectors.mapping(EmployeeBean::name,Collectors.toList())));
