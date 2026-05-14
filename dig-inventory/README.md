@@ -1,2 +1,2 @@
-# public
-public repo
+# private
+service to manage inventory
